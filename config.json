@@ -1,0 +1,29 @@
+{
+    "main": {
+        "prefix": "!"
+    },
+    "embedSettings": {
+        "colour":"#f000ff",
+        "footer": {
+            "serverName": "KetBot",
+            "serverLogo": "https://cdn.discordapp.com/avatars/334742822437781504/1b5fac7401de4ac66313030f33fe63a5.png?size=128"
+        }
+    },
+    "Activity": {
+        "Enabled": true,
+        "Interval": 5,
+        "Content": ["UPTIME-TIMER", "KetBot", "BritBot"],
+        "Type": "PLAYING"
+    },
+    "onJoin": {
+        "Enabled": true,
+        "RoleId": "645022933235793950",
+        "MessageChannelId": "831958904656625695",
+        "Message": "Hello"
+    },
+    "onLeave": {
+        "Enabled": false,
+        "MessageChannelId": "831958904656625695",
+        "Message": "Bye"
+    }
+}
